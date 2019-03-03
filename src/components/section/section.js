@@ -1,17 +1,17 @@
 import React from 'react';
 
 
-const section = () => {
+const Section = () => {
 
     return (
         <section>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-sm-4'>Hello There</div>
+                    <div className='col-sm-4'>Hello There From Section</div>
                 </div>
             </div>
         </section>
     )
 }
 
-export default section;
+export default Section;
