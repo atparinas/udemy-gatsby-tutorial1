@@ -39,6 +39,9 @@ const Index = ({data}) => {
                 <div>
                     <Img fixed={product.image.fixed} />
                 </div>
+                <div>
+                    <Link to={`/products/${product.title}`} >Details</Link>
+                </div>
             </div>
         )
     })
