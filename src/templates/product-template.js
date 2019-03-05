@@ -14,7 +14,7 @@ export const query = graphql`query($id:String!){
   	}
     image {
       fluid {
-				...GatsbyContentfulFluid_tracedSVG
+				...GatsbyContentfulFluid
       }
     }
     
