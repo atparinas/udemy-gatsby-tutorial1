@@ -30,7 +30,7 @@ const ProductTemplate = ({data}) => {
   return (
     <Layout>
         <Link to="/products" ><h4>Back To Products</h4></Link>
-        <h1>{product.title} <span> ${product.price}</span> </h1>
+        <h1>{product.title} <span style={{color:'red'}} > ${product.price}</span> </h1>
         <p> {product.description.description} </p>
         <div>
           <Img fluid={product.image.fluid} />
